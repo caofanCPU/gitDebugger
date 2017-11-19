@@ -21,5 +21,5 @@ public class GitChineseCodingErrorAnalysis
      * forth: add key words: "态" HHHH
      */
     // 态  乱码为什么？GGG？？？ 是 否
-    
+    // 欢迎  态  态  
 }
