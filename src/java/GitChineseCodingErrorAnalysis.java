@@ -26,7 +26,7 @@ public class GitChineseCodingErrorAnalysis
 	 */
 	
 	/**
-	 * 态 态
+	 * 态 GGsmida  是 否 成  信息
 	 */
     // So
     // Foolish
