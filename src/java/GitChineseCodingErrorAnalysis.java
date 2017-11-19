@@ -22,4 +22,5 @@ public class GitChineseCodingErrorAnalysis
      */
     // 态  乱码为什么？GGG？？？ 是 否
     // 态 态------GGHGH
+    // hello word
 }
