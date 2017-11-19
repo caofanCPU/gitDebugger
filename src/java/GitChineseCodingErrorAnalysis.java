@@ -26,6 +26,7 @@ public class GitChineseCodingErrorAnalysis
 	 */
 	
 	/**
+	 * 态   KKK 态 时  是  否
 	 * 态 GGsmida  是 否 成  信息
 	 */
     // So
@@ -36,5 +37,12 @@ public class GitChineseCodingErrorAnalysis
 	// 信息  是否
 	
 	
+	
+    // Foolish  态 态态
+	// 制造冲突   态 态 态 是 否   信息
+	// 没有态 没有是 没有 否
+	
+	// 冲突  是 否
+	// 冲突  信息  态   态   态
 	
 }
