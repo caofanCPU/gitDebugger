@@ -30,5 +30,11 @@ public class GitChineseCodingErrorAnalysis
 	 */
     // So
     // Foolish
-	// 没有态 没有是 没有 否
+	// 没有态 没有是 没有
+	// 叽歪  叽歪
+	// 态态  态  太太太阿嚏是男孩都看见你尽快不好接口板接口板就
+	// 信息  是否
+	
+	
+	
 }
