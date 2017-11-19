@@ -26,8 +26,8 @@ public class GitChineseCodingErrorAnalysis
 	 */
 	
 	/**
-	 * 态 态   哈哈哈 态 态 哈哈
+	 * 态   KKK 态 时  是  否
 	 */
     // So
-    // Foolish
+    // Foolish  态 态态
 }
