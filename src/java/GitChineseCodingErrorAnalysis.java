@@ -21,6 +21,8 @@ public class GitChineseCodingErrorAnalysis
      * forth: add key words: "态"
      */
     // 态
+    
+    // GGGGGGGGG
     // second commit code: 9eaa7dbb04acec084b312664928773f852783290
 
 }
