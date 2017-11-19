@@ -24,7 +24,9 @@ public class GitChineseCodingErrorAnalysis
     
     // GGGGGGGGG
     // second commit code: 9eaa7dbb04acec084b312664928773f852783290
-	
-	// 态 态 态
+    
+    // 态个JJJJJJ
+    
+    // 态 态 态
 
 }
