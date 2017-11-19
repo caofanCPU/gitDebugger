@@ -20,6 +20,6 @@ public class GitChineseCodingErrorAnalysis
     /**
      * forth: add key words: "态" HHHH
      */
-    // 态
+    // 态  妈了个巴子
     
 }
