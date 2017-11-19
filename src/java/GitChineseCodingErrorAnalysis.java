@@ -28,4 +28,6 @@ public class GitChineseCodingErrorAnalysis
 	/**
 	 * 态 态
 	 */
+    // So
+    // Foolish
 }
