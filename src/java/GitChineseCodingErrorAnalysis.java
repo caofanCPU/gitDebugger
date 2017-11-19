@@ -12,14 +12,15 @@ public class GitChineseCodingErrorAnalysis
      */
     
     /**
-     * third: create chinese words example '你好，是,态态态'
+     * third: create chinese words example '浣犲ソ锛屾槸,鎬佹€佹€
      */
     // first commit code: e8fbfecdcc80f1857069b5fa0fefbad11352fa40
     
     
     /**
-     * forth: add key words: "态" HHHH
+     * forth: add key words: "鎬 HHHH
      */
-    // 态  妈了个巴子
+    // 鎬 濡堜簡涓反瀛
+    // 鎬 涔辩爜涓轰粈涔堬紵锛燂紵锛鏄鍚
     
 }
