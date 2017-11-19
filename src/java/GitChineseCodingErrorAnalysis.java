@@ -14,5 +14,10 @@ public class GitChineseCodingErrorAnalysis
     /**
      * third: create chinese words example '你好，是,态态态'
      */
+    
+    /**
+     * forth: add key words: "态"
+     */
+    // 态
 
 }
