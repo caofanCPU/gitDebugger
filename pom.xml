@@ -9,5 +9,6 @@
     <version>1.0-SNAPSHOT</version>
 
     <!--  测试 两次 提交， 未 push， 本地撤销提交，再push，会提交几次？ 这里第一次提交-->
+    <!-- 测试冲突  态 -->
 
 </project>
