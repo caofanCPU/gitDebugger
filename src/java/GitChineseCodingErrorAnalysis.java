@@ -20,7 +20,12 @@ public class GitChineseCodingErrorAnalysis
     /**
      * forth: add key words: "态" HHHH
      */
-    // 态  乱码为什么？GGG？？？ 是 否
-    // 态 态------GGHGH
-    // hello word
+
+	/**
+	 * 最后锁定问题：Git Extention!!!!
+	 */
+	
+	/**
+	 * 态 态
+	 */
 }
