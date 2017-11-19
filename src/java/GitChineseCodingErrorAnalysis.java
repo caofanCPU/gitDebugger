@@ -30,4 +30,5 @@ public class GitChineseCodingErrorAnalysis
 	 */
     // So
     // Foolish
+	// 没有态 没有是 没有 否
 }
