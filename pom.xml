@@ -18,6 +18,19 @@
 
     <dependencies>
 
+        <!--<dependency>-->
+            <!--<groupId>cglib</groupId>-->
+            <!--<artifactId>cglib</artifactId>-->
+            <!--<version>3.1</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>commons-beanutils</groupId>-->
+            <!--<artifactId>commons-beanutils</artifactId>-->
+            <!--<version>1.9.2</version>-->
+        <!--</dependency>-->
+
+        <!-- 正常maven -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-dbcp2</artifactId>
@@ -306,6 +319,8 @@
             </plugin>
         </plugins>
     </build>
+
+
 
     <profiles>
         <profile>

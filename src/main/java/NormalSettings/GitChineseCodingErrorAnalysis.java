@@ -1,3 +1,5 @@
+package NormalSettings;
+
 /**
  * Created by CY_XYZ on 2017/11/19.
  */
