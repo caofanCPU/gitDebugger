@@ -45,30 +45,21 @@ public class ConvertUtils
 //        cceForForceClassCastForString();
 //        //just view:
 //        compileFailForClassCastForString();
+//        forceClassCastForNullValue();
 
 //        valueOfForString();
 //        valueOfForStringForNullValue();
-
+/**
+ * ****************************************************
+ */
 //        initData();
 
 //        normalUseForToString();
 //        normalUseForForceCast();
 //        normalUseForValueOf();
 
-//        convert2Integer();
+        convert2Integer();
 //        convert2Boolean();
-    }
-    public static void convert2Integer()
-    {
-        Map<Integer, String> mappingMap = getMappingMap();
-        Map<String, Object> dataMap = getHashMapData(initData(), mappingMap.get(1));
-        String age = dataMap.get("age").toString();
-        int ageInt = Integer.parseInt(age);
-        Integer ageInt2 = Integer.valueOf(age);
-        System.out.println("\n年龄：" + ageInt);
-        System.out.println("\n年龄：" + ageInt2 + "\t类型 " + ageInt2.getClass());
-
-        // mybatis： Integer(0) == ""
     }
 
     public static void normalUseForToString()
@@ -86,7 +77,7 @@ public class ConvertUtils
     public static void normalUseForForceCast()
     {
         Map<Integer, String> mappingMap = getMappingMap();
-        Map<String, Object> dataMap = getHashMapData(initData(), mappingMap.get(1));
+        Map<String, Object> dataMap = getHashMapData(initData(), mappingMap.get(5));
         String name = (String) dataMap.get("name");
         String age = (String) dataMap.get("age");
         String isMarried = (String) dataMap.get("isMarried");
@@ -105,6 +96,19 @@ public class ConvertUtils
         System.out.println("姓名：" + name + "\t类型 " + name.getClass()
                 + "\n年龄：" + age + "\t类型 " + age.getClass()
                 + "\n是否已婚：" + isMarried + "\t类型 " + isMarried.getClass());
+    }
+
+    public static void convert2Integer()
+    {
+        Map<Integer, String> mappingMap = getMappingMap();
+        Map<String, Object> dataMap = getHashMapData(initData(), mappingMap.get(1));
+        String age = dataMap.get("age").toString();
+        int ageInt = Integer.parseInt(age);
+        Integer ageInt2 = Integer.valueOf(age);
+        System.out.println("\n年龄：" + ageInt);
+        System.out.println("\n年龄：" + ageInt2 + "\t类型 " + ageInt2.getClass());
+
+        // mybatis： Integer(0) == ""
     }
 
     public static Map<String, Map<String, Object>> initData()
@@ -157,18 +161,19 @@ public class ConvertUtils
     {
         UserPO userPO = null;
         System.out.println(userPO.toString());
+//        Map<String, Object> dataMap = getContractById(contractId);
+//        String idNo = dataMap.get(idNO).toString();
+//        ...
     }
-
 
     public static void origin2String()
     {
-        UserPO userPO = new UserPO();
-        Class<?> clazz = userPO.getClass();
-        String className = clazz.getName();
-        System.out.println(clazz + "\t" + className);
-        System.out.println(userPO);
-        System.out.println(userPO.toString());
-
+//        UserPO userPO = new UserPO();
+////        Class<?> clazz = userPO.getClass();
+////        String className = clazz.getName();
+////        System.out.println(clazz + "\t" + className);
+////        System.out.println(userPO);
+//        System.out.println(userPO.toString());
         UserVO userVO = new UserVO();
         System.out.println(userVO);
     }
@@ -199,7 +204,6 @@ public class ConvertUtils
         return mappingMap;
     }
 
-
     public static void forceClassCastForString()
     {
         Object obj = new Integer(1997);
@@ -222,8 +226,7 @@ public class ConvertUtils
     {
         Object obj = null;
         String str = (String) obj;
-        System.out.println("强转前类型:" + obj.getClass() + "\t强转后类型:" + str.getClass());
-        System.out.println("null对象可强转为String类型(其实是任意类型)");
+        System.out.println("null对象可强转为String类型(其实是任意类型):" + str);
     }
 
     public static void testEnum()
