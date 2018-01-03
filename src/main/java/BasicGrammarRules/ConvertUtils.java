@@ -1,7 +1,7 @@
 package BasicGrammarRules;
 
 import PO.UserPO;
-import PO.UserVO;
+import VO.UserVO;
 import constants.BookingStatus;
 import constants.WarehouseScaleType;
 
@@ -40,17 +40,20 @@ public class ConvertUtils
     {
 //        origin2String();
 //        npeFor2String();
+//        testEnum();
+
 //        cceForForceClassCastForString();
-//        valueOfForString();
-//        valueOfForStringForNullValue();
 //        //just view:
 //        compileFailForClassCastForString();
 
+//        valueOfForString();
+//        valueOfForStringForNullValue();
+
 //        initData();
-//        normalUseForValueOf();
-//        normalUseForForceCast();
+
 //        normalUseForToString();
-//        testEnum();
+//        normalUseForForceCast();
+//        normalUseForValueOf();
 
 //        convert2Integer();
 //        convert2Boolean();
@@ -141,12 +144,6 @@ public class ConvertUtils
         String str = String.valueOf(obj);
         System.out.println("转换成功!" + str);
     }
-//    public static void compileFailForClassCastForString()
-//    {
-//        Integer obj = new Integer(1997);
-//        String str = (String) obj;
-//        System.out.println("强转成功：" + str);
-//    }
 
     public static void cceForForceClassCastForString()
     {
@@ -213,6 +210,13 @@ public class ConvertUtils
         }
         System.out.println("强转失败!原始对象不支持强转为String类型");
     }
+
+//    public static void compileFailForClassCastForString()
+//    {
+//        Integer obj = new Integer(1997);
+//        String str = (String) obj;
+//        System.out.println("强转成功：" + str);
+//    }
 
     public static void forceClassCastForNullValue()
     {

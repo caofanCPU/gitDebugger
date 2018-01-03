@@ -1,4 +1,4 @@
-package PO;
+package VO;
 
 /**
  * Created by caofanCPU on 2018/1/2.
